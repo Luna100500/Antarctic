@@ -62,7 +62,7 @@
 
 body .catalog__preview {
   @include catalog-set;
-  z-index: 0;
+  // z-index: 0;
   @include back-set;
   background-size: 100% 100%;
   background-position: center;
@@ -265,7 +265,6 @@ body .catalog__preview {
   background-color: $color-navy;
   position: relative;
   top: 0;
-  z-index: -1;
   width: 100%;
   height: 100%;
   display: flex;
@@ -299,6 +298,7 @@ body .catalog__preview {
   display: flex;
   width: 100%;
   background-color: $color-off-white;
+
   @include montserrat(600, 14px, 21px, $color-navy);
   min-height: 40px;
   align-items: center;

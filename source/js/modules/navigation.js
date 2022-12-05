@@ -19,6 +19,7 @@ const openMenu = () => {
   logo.classList.add("header__logo-svg--opened");
   navigation.classList.add("header__nav-list--opened");
   cross.classList.add("header__cross-button--opened");
+  logo.style.fill = "#011c40";
 };
 
 toggle.addEventListener("click", () => {

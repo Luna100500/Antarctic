@@ -54,6 +54,8 @@ footer {
 }
 
 .footer__logo-svg {
+  fill: $color-off-white;
+
   @include vp-1023 {
     width: 38px;
     height: 20px;

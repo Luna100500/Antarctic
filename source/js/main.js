@@ -1,7 +1,10 @@
 import { iosVhFix } from "./utils/ios-vh-fix";
 import { initModals } from "./modules/modals/init-modals";
-import { initJs } from "./modules/navigation";
-import { initMap } from "./modules/map";
+import "./modules/scroll";
+import "./modules/map";
+import "./modules/navigation";
+import "./modules/catalog";
+import "./modules/form";
 
 // ---------------------------------
 

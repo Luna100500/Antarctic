@@ -10,33 +10,45 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
-  @include back-set;
 
-  @media (min-resolution: 2dppx) {
-    background: url("../img/intro/intro-desk@2x.webp");
-    @include back-set;
-  }
+  @include back-set;
 
   @include vp-1023 {
     height: 638px;
     background: url("../img/intro/intro-tab.webp");
-    @include back-set;
-  }
 
-  @media (min-resolution: 2dppx) {
-    background: url("../img/intro/intro-tab@2x.webp");
     @include back-set;
   }
 
   @include vp-767 {
     height: 500px;
     background: url("../img/intro/intro-mob.webp");
+
     @include back-set;
   }
 
-  @media (min-resolution: 2dppx) {
-    background: url("../img/intro/intro-mob@2x.webp");
+  @include retina {
+    background: url("../img/intro/intro-desk@2x.webp");
+
     @include back-set;
+
+    @include vp-1023 {
+      &.retina {
+        background: url("../img/intro/intro-tab@2x.webp");
+
+        @include back-set;
+        background-size: cover;
+      }
+    }
+
+    @include vp-767 {
+      &.retina {
+        background: url("../img/intro/intro-mob@2x.webp");
+
+        @include back-set;
+        background-position: bottom, bottom;
+      }
+    }
   }
 }
 
@@ -63,7 +75,7 @@
 
 .intro__text h1 {
   @include montserrat(700, 54px, 66px, $color-off-white);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 12px;
 
   @include vp-1023 {
@@ -79,7 +91,7 @@
 
 .intro__text h2 {
   @include montserrat(400, 20px, 25px, $color-off-white);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 
   @include vp-1023 {
     @include montserrat(400, 18px, 22px, $color-off-white);

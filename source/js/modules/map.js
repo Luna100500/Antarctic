@@ -7,12 +7,13 @@ var map = new L.map("map", mapOptions);
 var layer = new L.TileLayer(
   "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 );
+
 map.addLayer(layer);
 
 var marker;
 
 var pinIcon = L.icon({
-  iconUrl: "../img/svg/geo.svg",
+  iconUrl: "./img/svg/geo.svg",
   iconSize: [18, 22], // size of the icon
   iconAnchor: [22, 10], // point of the icon which will correspond to marker's location
 });

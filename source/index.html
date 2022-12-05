@@ -25,33 +25,30 @@
       <div class="header header--opened">
         <div class="header__logo">
           <a class="header__logo-link" href="index.html">
-            <picture>
-              <!-- <source media="(max-width: 767px)" srcset="./img/logo/logo-mob.svg">
-              <source media="(max-width: 1023px)" srcset="./img/logo/logo-tab.svg"> -->
-              <img class="header__logo-svg header__logo-svg--opened" src="./img/logo/logo-tab.svg" width="70"
-                height="38" alt="Logo Antarctic.">
-            </picture>
+            <svg width="70" height="38" class="header__logo-svg header__logo-svg--opened">
+              <use xlink:href="./img/sprite.svg#logo-tab"></use>
+            </svg>
           </a>
         </div>
         <div class="header__nav-list-wrapper">
           <ul class="header__nav-list header__nav-list--opened reset-list">
             <li class="header__nav-item">
-              <a class="header__nav-link" href="#">
+              <a class="header__nav-link" href="#head1">
                 Преимущества
               </a>
             </li>
             <li class="header__nav-item">
-              <a class="header__nav-link" href="#">
+              <a class="header__nav-link" href="#head2">
                 Направления
               </a>
             </li>
             <li class="header__nav-item">
-              <a class="header__nav-link" href="#">
+              <a class="header__nav-link" href="#head3">
                 Ближайшие круизы
               </a>
             </li>
             <li class="header__nav-item">
-              <a class="header__nav-link" href="#">
+              <a class="header__nav-link" href="#head4">
                 Контакты
               </a>
             </li>
@@ -76,23 +73,18 @@
             </button>
           </div>
         </div>
+      </div>
     </header>
     <main>
       <section class="intro">
-        <div class="intro__container">
+        <div class="intro__container retina">
           <div class="intro__text">
             <h1>Круизы в&nbsp;Антарктику </h1>
             <h2>Волшебный мир айсбергов&nbsp;и&nbsp;пингвинов</h2>
           </div>
-          <!-- <h1>Тестовая страница.</h1>
-          <p>На данной странице показан пример модальных окон.</p>
-          <p>Перед началом разработки не забудьте удалить всё содержимое &#8249;main&#8250;&#8249;&#8260;main&#8250;.
-          </p>
-          <p><a class="btn" href="#" data-open-modal="feedback">modal--feedback link</a></p>
-          <p><a class="btn" href="#" data-open-modal="success">modal--success link</a></p> -->
         </div>
       </section>
-      <section class="promo-block">
+      <section class="promo-block retina" id="head2">
         <div class="promo-block__container">
           <div class="promo-block__text">
             <h2>Путешествие на&nbsp;край&nbsp;Земли</h2>
@@ -102,18 +94,10 @@
               видов пингвинов, китов, морских котиков и&nbsp;многое другое.</p>
           </div>
           <div class="promo-block__img">
-            <!-- <picture>
-              <source media="(max-width: 767px)"
-                srcset="./img/promo/promo-mob.webp 1x, ./img/promo/promo-mob@2x.webp 2x">
-              <source media="(max-width: 1023px)"
-                srcset="./img/promo/promo-tab.webp 1x, ./img/promo/promo-tab@2x.webp 2x">
-              <img class="promo-block__img" src="./img/promo/promo-desk.webp" srcset="./img/promo/promo-desk@2x.webp 2x"
-                width="560" height="301" alt="Пингвины.">
-            </picture> -->
           </div>
         </div>
       </section>
-      <section class="advantages">
+      <section class="advantages retina" id="head1">
         <div class="advantages__container">
           <h2>Преимущества</h2>
           <ul class="advantages__list reset-list">
@@ -137,16 +121,16 @@
           </ul>
         </div>
       </section>
-      <section class="catalog">
+      <section class="catalog" id="head3">
         <div class="catalog__container">
           <h2>Ближайшие круизы</h2>
           <ul class="catalog__list reset-list">
             <li class="catalog__item">
-              <div class="catalog__preview item-1">
+              <div class="catalog__preview retina item-1">
                 <h3>Круиз “Астория”</h3>
               </div>
               <div class="catalog__info">
-                <div>
+                <div class=" catalog__info-text">
                   <h3>Круиз “Астория”</h3>
                   <h4>Маршрут</h4>
                   <p>Аргентина - Фолклендские острова - Антарктида</p>
@@ -164,7 +148,7 @@
             </li>
 
             <li class="catalog__item">
-              <div class="catalog__preview item-2">
+              <div class="catalog__preview retina item-2">
                 <h3>Круиз “Элайн”</h3>
               </div>
               <div class="catalog__info">
@@ -186,7 +170,7 @@
             </li>
 
             <li class="catalog__item">
-              <div class="catalog__preview item-3">
+              <div class="catalog__preview retina item-3">
                 <h3>Круиз “Атлантис”</h3>
               </div>
               <div class="catalog__info">
@@ -208,7 +192,7 @@
             </li>
 
             <li class="catalog__item">
-              <div class="catalog__preview item-4">
+              <div class="catalog__preview retina item-4">
                 <h3>Круиз “Одиссей”</h3>
               </div>
               <div class="catalog__info">
@@ -230,7 +214,7 @@
             </li>
 
             <li class="catalog__item">
-              <div class="catalog__preview item-5">
+              <div class="catalog__preview retina item-5">
                 <h3>Круиз “Олимпия”</h3>
               </div>
               <div class="catalog__info">
@@ -253,7 +237,7 @@
             </li>
 
             <li class="catalog__item">
-              <div class="catalog__preview item-6">
+              <div class="catalog__preview retina item-6">
                 <h3>Круиз “Аврора”</h3>
               </div>
               <div class="catalog__info">
@@ -265,8 +249,8 @@
                   <p>Ушуайя</p>
                   <h4>Продолжительность</h4>
                   <p>14 дней</p>
-                  <h4Цена< /h4>
-                    <p>от 11700 $</p>
+                  <h4>Цена</h4>
+                  <p>от 11700 $</p>
                 </div>
                 <a class="catalog__button" href="#">
                   Забронировать
@@ -276,7 +260,7 @@
             </li>
 
             <li class="catalog__item">
-              <div class="catalog__preview item-7">
+              <div class="catalog__preview retina item-7">
                 <h3>Круиз “Леонор”</h3>
               </div>
               <div class="catalog__info">
@@ -298,7 +282,7 @@
             </li>
 
             <li class="catalog__item">
-              <div class="catalog__preview item-8">
+              <div class="catalog__preview retina item-8">
                 <h3>Круиз “Минион&nbsp;-&nbsp;1”</h3>
               </div>
               <div class="catalog__info">
@@ -322,7 +306,7 @@
           </ul>
         </div>
       </section>
-      <section class="feedback">
+      <section class="feedback retina">
         <div class="feedback__container">
           <div class="feedback__text">
             <h2>Раннее бронирование</h2>
@@ -340,12 +324,12 @@
                 </div>
                 <div class="form__phone">
                   <label>
-                    <input type="tel" id="phone-mask" placeholder="Телефон" minlength="14" required>
+                    <input type="tel" id="phone-mask" placeholder="Телефон" minlength="11" required>
                   </label>
                 </div>
                 <div class="form__email">
                   <label>
-                    <input type="email" placeholder="Email" minlength="7" required>
+                    <input type="email" placeholder="Email" minlength="5" required>
                   </label>
                 </div>
               </fieldset>
@@ -361,7 +345,7 @@
           </div>
         </div>
       </section>
-      <section class="contacts">
+      <section class="contacts" id="head4">
         <div class="contacts__container">
           <div class="contacts__map">
             <div class="map" id="map" style="width: 100%; height: auto;"></div>
@@ -382,25 +366,22 @@
           <ul class="footer__navigation-list reset-list">
             <li class="footer__navigation-item">
               <a class="footer__logo-link" href="index.html">
-                <picture>
-                  <!-- <source media="(max-width: 767px)" srcset="./img/logo/logo-mob.svg">
-                  <source media="(max-width: 1023px)" srcset="./img/logo/logo-tab.svg"> -->
-                  <img class="footer__logo-svg" src="./img/logo/logo-tab.svg" width="70" height="38"
-                    alt="Logo Antarctic.">
-                </picture>
+                <svg width="70" height="38" class="footer__logo-svg">
+                  <use xlink:href="./img/sprite.svg#logo-tab"></use>
+                </svg>
               </a>
             </li>
             <li class="footer__navigation-item">
-              <a class="footer__navigation-link" href="#">Преимущества</a>
+              <a class="footer__navigation-link" href="#head1">Преимущества</a>
             </li>
             <li class="footer__navigation-item">
-              <a class="footer__navigation-link" href="#">Направления</a>
+              <a class="footer__navigation-link" href="#head2">Направления</a>
             </li>
             <li class="footer__navigation-item">
-              <a class="footer__navigation-link" href="#">Ближайшие круизы</a>
+              <a class="footer__navigation-link" href="#head3">Ближайшие круизы</a>
             </li>
             <li class="footer__navigation-item">
-              <a class="footer__navigation-link" href="#">Контакты</a>
+              <a class="footer__navigation-link" href="#head4">Контакты</a>
             </li>
           </ul>
           <ul class="footer__other-list reset-list">
@@ -430,35 +411,6 @@
       </div>
     </footer>
   </div>
-
-  <!-- Модалки -->
-  <!-- <div class="modal modal--preload" data-modal="feedback">
-    <div class="modal__wrapper">
-      <div class="modal__overlay" data-close-modal></div>
-      <div class="modal__content">
-        <p class="modal__description">Обычная модалка</p>
-        <button class="modal__close-btn btn-reset" type="button" aria-label="Закрыть попап" data-close-modal>
-          <svg width="15" height="15">
-            <use xlink:href="img/sprite.svg#icon-close"></use>
-          </svg>
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal modal--preload modal--fit-content modal--no-scale" data-modal="success">
-    <div class="modal__wrapper">
-      <div class="modal__overlay" data-close-modal></div>
-      <div class="modal__content">
-        <p class="modal__description">Размер этой модалки зависит от ширины контента,<br> отключена анимация-скейл</p>
-        <button class="modal__close-btn btn-reset" type="button" aria-label="Закрыть попап" data-close-modal>
-          <svg width="15" height="15">
-            <use xlink:href="img/sprite.svg#icon-close"></use>
-          </svg>
-        </button>
-      </div>
-    </div>
-  </div> -->
 
   <script src="js/vendor.min.js"></script>
   <script src="js/main.min.js"></script>
