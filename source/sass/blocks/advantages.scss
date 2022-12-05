@@ -1,0 +1,170 @@
+.advantages {
+  width: 100%;
+  background: url("../img/adv/adv-desk.webp");
+  z-index: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  @include back-set;
+
+  @media (min-resolution: 2dppx) {
+    background: url("../img/adv/adv-desk@2x.webp");
+    @include back-set;
+    background-size: cover;
+  }
+
+  @include vp-1023 {
+    height: 588px;
+    background: url("../img/adv/adv-tab.webp");
+    @include back-set;
+    background-size: cover;
+  }
+
+  @media (min-resolution: 2dppx) {
+    background: url("../img/adv/adv-tab@2x.webp");
+    @include back-set;
+    background-size: cover;
+  }
+
+  @include vp-767 {
+    height: auto;
+    padding-bottom: 65px;
+    background: url("../img/adv/adv-mob.webp");
+    @include back-set;
+    background-size: cover;
+  }
+
+  @media (min-resolution: 2dppx) {
+    background: url("../img/adv/adv-mob@2x.webp");
+    @include back-set;
+    background-size: cover;
+  }
+}
+
+.advantages__container {
+  max-width: 1366px;
+  padding: 0 103px;
+  padding: 0 103px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include vp-1023 {
+    padding: 0 45px;
+  }
+
+  @include vp-767 {
+    padding: 0 15px;
+  }
+}
+
+.advantages__container h2 {
+  @include montserrat(600, 28px, 42px, $color-navy);
+  margin-top: 110px;
+  margin-bottom: 50px;
+
+  @include vp-1023 {
+    @include montserrat(600, 26px, 39px, $color-navy);
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
+
+  @include vp-767 {
+    @include montserrat(600, 24px, 36px, $color-navy);
+    margin-top: 57px;
+    margin-bottom: 29px;
+  }
+}
+
+.advantages__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+
+  @include vp-1023 {
+    gap: 30px;
+  }
+  @include vp-767 {
+    grid-template-columns: 100%;
+  }
+}
+
+.advantages__item {
+  background-color: $color-off-white;
+  position: relative;
+  padding: 80px 30px 45px;
+
+  @include vp-1023 {
+    padding: 70px 16px 20px 20px;
+  }
+}
+
+.advantages__item h3 {
+  @include montserrat(500, 18px, 27px, $color-navy);
+
+  @include vp-1023 {
+    @include montserrat(500, 18px, 25px, $color-navy);
+  }
+
+  @include vp-767 {
+    padding-right: 53px;
+  }
+}
+
+.advantages__item:last-child h3 {
+  @include vp-1023 {
+    margin-bottom: 18px;
+  }
+
+  @include vp-767 {
+    margin-bottom: 0;
+  }
+}
+
+.advantages__item p {
+  @include montserrat(400, 14px, 20px, $color-navy);
+  margin-top: 8px;
+
+  @include vp-1023 {
+    margin-top: 9px;
+  }
+}
+
+.ship::before {
+  top: 28px;
+  content: url("../img/svg/ship.svg");
+  position: absolute;
+  width: 38px;
+  height: 32px;
+
+  @include vp-1023 {
+    width: 29px;
+    height: 26px;
+  }
+}
+
+.tick::before {
+  top: 28px;
+  content: url("../img/svg/tick.svg");
+  position: absolute;
+  width: 38px;
+  height: 32px;
+
+  @include vp-1023 {
+    width: 27px;
+    height: 26px;
+  }
+}
+
+.boat::before {
+  top: 28px;
+  content: url("../img/svg/boat.svg");
+  position: absolute;
+  width: 44px;
+  height: 32px;
+
+  @include vp-1023 {
+    width: 34px;
+    height: 26px;
+  }
+}

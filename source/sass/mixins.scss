@@ -74,45 +74,37 @@
   }
 }
 
-// Mobile first
+@mixin montserrat($weight, $size, $height, $color) {
+  font-family: "Montserrat", "Verdana", sans-serif;
+  font-style: normal;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $height;
+  color: $color;
+}
 
-// @mixin vp-375 {
-//   @media (min-width: $vp-375) {
-//     @content;
-//   }
-// }
+//input
 
-// @mixin vp-768 {
-//   @media (min-width: $vp-768) {
-//     @content;
-//   }
-// }
+@mixin input {
+  background: rgba(4, 20, 39, 0.15);
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+}
 
-// @mixin vp-1024 {
-//   @media (min-width: $vp-1024) {
-//     @content;
-//   }
-// }
+// background settings
 
-// @mixin vp-1280 {
-//   @media (min-width: $vp-1280) {
-//     @content;
-//   }
-// }
+@mixin back-set {
+  background-color: $color-deep-sky-blue;
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom;
+  background-size: cover, cover;
+}
 
-// @mixin vp-1440 {
-//   @media (min-width: $vp-1440) {
-//     @content;
-//   }
-// }
-
-// @mixin vp-1920 {
-//   @media (min-width: $vp-1920) {
-//     @content;
-//   }
-// }
-
-// ---------------------------------
-
-// не нужно добавлять свои миксины для ресета списков, обнуления кнопок и прочие
-// этим вы усложняете работу команды, проверку вашего кода и будущую поддержку проекта
+@mixin catalog-set {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+}

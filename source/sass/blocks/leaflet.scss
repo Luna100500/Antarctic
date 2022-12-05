@@ -1,0 +1,12 @@
+div.leaflet-container {
+  width: 100%;
+  height: 306px;
+
+  @include vp-1023 {
+    height: 335px;
+  }
+}
+
+div.leaflet-pane {
+  transform: translate3d(-8px, 73px, 0px);
+}

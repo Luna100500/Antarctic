@@ -1,0 +1,111 @@
+.form input {
+  width: 100%;
+  height: 43px;
+  border: none;
+  padding: 16px 11px;
+}
+
+.form__button-send {
+  @include montserrat(600, 14px, 21px, $color-navy);
+  background-color: $color-off-white;
+  min-height: 43px;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  width: 100%;
+
+  &:hover {
+    text-decoration: revert;
+    opacity: 0.8;
+  }
+
+  &:focus {
+    border: 2px solid $color-deep-sky-blue;
+  }
+
+  &:active {
+    opacity: 0.8;
+  }
+
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.form__control label {
+  @include montserrat(400, 10px, 13px, $color-off-white);
+}
+
+.form__fieldset {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 20px;
+  border: none;
+  padding: 0;
+}
+
+::placeholder {
+  @include montserrat(400, 14px, 21px, $color-navy);
+}
+
+.form__agreement {
+  position: relative;
+  border: none;
+  padding: 0;
+}
+
+.form__control--checkbox label {
+  position: relative;
+  display: block;
+  padding: 23px 0 32px 21px;
+  cursor: pointer;
+
+  &::before {
+    position: absolute;
+    top: 20px;
+    left: -3px;
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-color: $color-off-white;
+  }
+
+  @include vp-767 {
+    padding: 18px 42px 26px 27px;
+  }
+}
+
+.form__control--checkbox:hover {
+  opacity: 0.8;
+}
+
+.form__control--checkbox:focus-within {
+  outline: 1px solid $color-off-white;
+}
+
+.form__control--checkbox input:active + label {
+  opacity: 0.6;
+  outline: none;
+}
+
+.form__control--checkbox input:disabled + label {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.form__control--checkbox input:checked + label {
+  &::before {
+    background-image: url("../img/svg/checkbox.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+  }
+}
+
+.form__control--checkbox {
+  width: max-content;
+
+  @include vp-767 {
+    width: auto;
+  }
+}

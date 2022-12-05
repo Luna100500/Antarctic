@@ -13,11 +13,11 @@ body {
 
 html {
   font-style: normal;
-  font-weight: 400;
-  font-size: $fz-default;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 24px;
-  font-family: $ff-placeholder;
-  color: $color-default-black;
+  font-family: "Montserrat", "Verdana", sans-serif;
+  color: $color-navy;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -37,6 +37,26 @@ body {
 a {
   color: $color-default-black;
   text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+h4 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 img,
@@ -111,13 +131,7 @@ input[type="number"] {
 // ios button \ inputs reset
 select,
 textarea,
-input:matches([type="email"],
-  [type="number"],
-  [type="password"],
-  [type="search"],
-  [type="tel"],
-  [type="text"],
-  [type="url"]) {
+input:matches([type="email"], [type="number"], [type="password"], [type="search"], [type="tel"], [type="text"], [type="url"]) {
   appearance: none;
 }
 
