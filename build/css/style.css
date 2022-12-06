@@ -652,7 +652,7 @@ button,
   padding: 0 40px;
 }
 
-header {
+.header {
   position: absolute;
   width: 100%;
   display: -webkit-box;
@@ -664,7 +664,7 @@ header {
   justify-content: center;
 }
 
-.header {
+.header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -804,7 +804,7 @@ header {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #0080ff;
+  background-color: #c1ced7;
   background-repeat: no-repeat, no-repeat;
   background-position: bottom;
   background-size: cover, cover;
@@ -911,7 +911,7 @@ header {
   height: 301px;
   margin-left: 20px;
   background: url("../img/promo/promo-desk.webp");
-  background-color: #0080ff;
+  background-color: #c1ced7;
   background-repeat: no-repeat, no-repeat;
   background-position: bottom;
   background-size: cover, cover;
@@ -928,7 +928,7 @@ header {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #0080ff;
+  background-color: #c1ced7;
   background-repeat: no-repeat, no-repeat;
   background-position: bottom;
   background-size: cover, cover;
@@ -1067,22 +1067,6 @@ header {
   min-height: 386px;
 }
 
-body .catalog__preview {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #0080ff;
-  background-repeat: no-repeat, no-repeat;
-  background-position: bottom;
-  background-size: cover, cover;
-  background-size: 100% 100%;
-  background-position: center;
-}
-
 .catalog__item-1 {
   background: url("../img/prod-desk/prod-desk-1.webp");
 }
@@ -1205,7 +1189,7 @@ body .catalog__preview {
 }
 
 .catalog__button:focus {
-  border: 2px solid #0080ff;
+  border: 2px solid #c1ced7;
 }
 
 .catalog__button:active {
@@ -1217,8 +1201,19 @@ body .catalog__preview {
 }
 
 .catalog__item .catalog__preview {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: flex;
+  background-color: #c1ced7;
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom;
+  background-size: cover, cover;
+  background-size: 100% 100%;
+  background-position: center;
   display: flex;
   -webkit-box-align: end;
   -ms-flex-align: end;
@@ -1229,7 +1224,7 @@ body .catalog__preview {
   padding: 23px 30px;
 }
 
-footer {
+.footer {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1241,7 +1236,7 @@ footer {
   min-height: 138px;
 }
 
-.footer {
+.footer__container {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1334,7 +1329,7 @@ footer {
   background: url("../img/book/book-desk.webp");
   z-index: 0;
   overflow: hidden;
-  background-color: #0080ff;
+  background-color: #c1ced7;
   background-repeat: no-repeat, no-repeat;
   background-position: bottom;
   background-size: cover, cover;
@@ -1427,7 +1422,7 @@ footer {
 }
 
 .form__button-send:focus {
-  border: 2px solid #0080ff;
+  border: 2px solid #c1ced7;
 }
 
 .form__button-send:active {
@@ -1709,7 +1704,7 @@ div.leaflet-pane {
     padding: 0 24px;
   }
 
-  .header {
+  .header__container {
     padding-left: 45px;
     padding-right: 32px;
     min-height: 80px;
@@ -1746,7 +1741,7 @@ div.leaflet-pane {
   .intro__container {
     height: 638px;
     background: url("../img/intro/intro-tab.webp");
-    background-color: #0080ff;
+    background-color: #c1ced7;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -1812,7 +1807,7 @@ div.leaflet-pane {
     height: 174px;
     margin-left: 12px;
     background: url("../img/promo/promo-tab.webp");
-    background-color: #0080ff;
+    background-color: #c1ced7;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -1821,7 +1816,7 @@ div.leaflet-pane {
   .advantages {
     height: 588px;
     background: url("../img/adv/adv-tab.webp");
-    background-color: #0080ff;
+    background-color: #c1ced7;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -1941,11 +1936,11 @@ div.leaflet-pane {
     padding: 26px 35px;
   }
 
-  footer {
+  .footer {
     min-height: 120px;
   }
 
-  .footer {
+  .footer__container {
     min-height: 120px;
     padding-top: 0;
   }
@@ -2063,7 +2058,7 @@ div.leaflet-pane {
 @media (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1023px), (-o-min-device-pixel-ratio: 3/2) and (max-width: 1023px), (min-resolution: 144dpi) and (max-width: 1023px), (min-resolution: 1.5dppx) and (max-width: 1023px) {
   .intro__container.retina {
     background: url("../img/intro/intro-tab@2x.webp");
-    background-color: #0080ff;
+    background-color: #c1ced7;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2072,7 +2067,7 @@ div.leaflet-pane {
 
   .promo-block__img.retina {
     background: url("../img/promo/promo-tab@2x.webp");
-    background-color: #0080ff;
+    background-color: #c1ced7;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2080,7 +2075,7 @@ div.leaflet-pane {
 
   .advantages.retina {
     background: url("../img/adv/adv-tab@2x.webp");
-    background-color: #0080ff;
+    background-color: #c1ced7;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2099,13 +2094,13 @@ div.leaflet-pane {
     padding: 0 16px;
   }
 
-  .header {
+  .header__container {
     padding: 0 15px;
     min-height: 61px;
     position: relative;
   }
 
-  .header--opened {
+  .header__container--opened {
     background-color: #f9fbfd;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2117,6 +2112,8 @@ div.leaflet-pane {
     -ms-flex-pack: start;
     justify-content: flex-start;
     min-height: -webkit-fill-available;
+    min-height: -moz-available;
+    min-height: fill-available;
     width: 89%;
     position: fixed;
     right: 0;
@@ -2185,7 +2182,7 @@ div.leaflet-pane {
   .intro__container {
     height: 500px;
     background: url("../img/intro/intro-mob.webp");
-    background-color: #0080ff;
+    background-color: #c1ced7;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2250,7 +2247,7 @@ div.leaflet-pane {
     max-width: 100%;
     margin-left: 0;
     background: url("../img/promo/promo-mob.webp");
-    background-color: #0080ff;
+    background-color: #c1ced7;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2262,7 +2259,7 @@ div.leaflet-pane {
     height: auto;
     padding-bottom: 65px;
     background: url("../img/adv/adv-mob.webp");
-    background-color: #0080ff;
+    background-color: #c1ced7;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2494,7 +2491,7 @@ div.leaflet-pane {
 @media (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 767px), (-o-min-device-pixel-ratio: 3/2) and (max-width: 767px), (min-resolution: 144dpi) and (max-width: 767px), (min-resolution: 1.5dppx) and (max-width: 767px) {
   .intro__container.retina {
     background: url("../img/intro/intro-mob@2x.webp");
-    background-color: #0080ff;
+    background-color: #c1ced7;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2503,7 +2500,7 @@ div.leaflet-pane {
 
   .promo-block__img.retina {
     background: url("../img/promo/promo-mob@2x.webp");
-    background-color: #0080ff;
+    background-color: #c1ced7;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2512,7 +2509,7 @@ div.leaflet-pane {
 
   .advantages.retina {
     background: url("../img/adv/adv-mob@2x.webp");
-    background-color: #0080ff;
+    background-color: #c1ced7;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2529,7 +2526,7 @@ div.leaflet-pane {
 @media (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .intro__container {
     background: url("../img/intro/intro-desk@2x.webp");
-    background-color: #0080ff;
+    background-color: #c1ced7;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2537,7 +2534,7 @@ div.leaflet-pane {
 
   .promo-block__img {
     background: url("../img/promo/promo-desk@2x.webp");
-    background-color: #0080ff;
+    background-color: #c1ced7;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2547,7 +2544,7 @@ div.leaflet-pane {
 
   .advantages {
     background: url("../img/adv/adv-desk@2x.webp");
-    background-color: #0080ff;
+    background-color: #c1ced7;
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;

@@ -60,13 +60,6 @@
   }
 }
 
-body .catalog__preview {
-  @include catalog-set;
-  @include back-set;
-  background-size: 100% 100%;
-  background-position: center;
-}
-
 .catalog__item-1 {
   background: url("../img/prod-desk/prod-desk-1.webp");
 
@@ -324,6 +317,10 @@ body .catalog__preview {
 }
 
 .catalog__item .catalog__preview {
+  @include catalog-set;
+  @include back-set;
+  background-size: 100% 100%;
+  background-position: center;
   display: flex;
   align-items: flex-end;
   justify-content: start;
