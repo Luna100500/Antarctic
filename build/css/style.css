@@ -993,7 +993,7 @@ header {
   margin-top: 8px;
 }
 
-.ship::before {
+.advantages__ship::before {
   top: 28px;
   content: url("../img/svg/ship.svg");
   position: absolute;
@@ -1001,7 +1001,7 @@ header {
   height: 32px;
 }
 
-.tick::before {
+.advantages__tick::before {
   top: 28px;
   content: url("../img/svg/tick.svg");
   position: absolute;
@@ -1009,7 +1009,7 @@ header {
   height: 32px;
 }
 
-.boat::before {
+.advantages__boat::before {
   top: 28px;
   content: url("../img/svg/boat.svg");
   position: absolute;
@@ -1083,35 +1083,35 @@ body .catalog__preview {
   background-position: center;
 }
 
-.item-1 {
+.catalog__item-1 {
   background: url("../img/prod-desk/prod-desk-1.webp");
 }
 
-.item-2 {
+.catalog__item-2 {
   background: url("../img/prod-desk/prod-desk-1.webp");
 }
 
-.item-3 {
+.catalog__item-3 {
   background: url("../img/prod-desk/prod-desk-3.webp");
 }
 
-.item-4 {
+.catalog__item-4 {
   background: url("../img/prod-desk/prod-desk-4.webp");
 }
 
-.item-5 {
+.catalog__item-5 {
   background: url("../img/prod-desk/prod-desk-5.webp");
 }
 
-.item-6 {
+.catalog__item-6 {
   background: url("../img/prod-desk/prod-desk-6.webp");
 }
 
-.item-7 {
+.catalog__item-7 {
   background: url("../img/prod-desk/prod-desk-7.webp");
 }
 
-.item-8 {
+.catalog__item-8 {
   background: url("../img/prod-desk/prod-desk-8.webp");
 }
 
@@ -1868,17 +1868,17 @@ div.leaflet-pane {
     margin-top: 9px;
   }
 
-  .ship::before {
+  .advantages__ship::before {
     width: 29px;
     height: 26px;
   }
 
-  .tick::before {
+  .advantages__tick::before {
     width: 27px;
     height: 26px;
   }
 
-  .boat::before {
+  .advantages__boat::before {
     width: 34px;
     height: 26px;
   }
@@ -1905,35 +1905,35 @@ div.leaflet-pane {
     min-height: 386px;
   }
 
-  .item-1 {
+  .catalog__item-1 {
     background: url("../img/prod-tab/prod-tab-1.webp");
   }
 
-  .item-2 {
+  .catalog__item-2 {
     background: url("../img/prod-tab/prod-tab-1.webp");
   }
 
-  .item-3 {
+  .catalog__item-3 {
     background: url("../img/prod-tab/prod-tab-3.webp");
   }
 
-  .item-4 {
+  .catalog__item-4 {
     background: url("../img/prod-tab/prod-tab-4.webp");
   }
 
-  .item-5 {
+  .catalog__item-5 {
     background: url("../img/prod-tab/prod-tab-5.webp");
   }
 
-  .item-6 {
+  .catalog__item-6 {
     background: url("../img/prod-tab/prod-tab-6.webp");
   }
 
-  .item-7 {
+  .catalog__item-7 {
     background: url("../img/prod-tab/prod-tab-7.webp");
   }
 
-  .item-8 {
+  .catalog__item-8 {
     background: url("../img/prod-tab/prod-tab-8.webp");
   }
 
@@ -2116,9 +2116,9 @@ div.leaflet-pane {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-    max-width: 285px;
-    min-height: 568px;
-    position: absolute;
+    min-height: -webkit-fill-available;
+    width: 89%;
+    position: fixed;
     right: 0;
   }
 
@@ -2317,35 +2317,35 @@ div.leaflet-pane {
     padding: 0 10px;
   }
 
-  .item-1 {
+  .catalog__item-1 {
     background: url("../img/prod-mob/prod-mob-1.webp");
   }
 
-  .item-2 {
+  .catalog__item-2 {
     background: url("../img/prod-mob/prod-mob-1.webp");
   }
 
-  .item-3 {
+  .catalog__item-3 {
     background: url("../img/prod-mob/prod-mob-3.webp");
   }
 
-  .item-4 {
+  .catalog__item-4 {
     background: url("../img/prod-mob/prod-mob-4.webp");
   }
 
-  .item-5 {
+  .catalog__item-5 {
     background: url("../img/prod-mob/prod-mob-5.webp");
   }
 
-  .item-6 {
+  .catalog__item-6 {
     background: url("../img/prod-mob/prod-mob-6.webp");
   }
 
-  .item-7 {
+  .catalog__item-7 {
     background: url("../img/prod-mob/prod-mob-7.webp");
   }
 
-  .item-8 {
+  .catalog__item-8 {
     background: url("../img/prod-mob/prod-mob-8.webp");
   }
 
@@ -2562,99 +2562,99 @@ div.leaflet-pane {
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 2dppx) {
-  .item-1 {
+  .catalog__item-1 {
     background: url("../img/prod-desk/prod-desk-1.webpk@2x.webp");
   }
 
-  .item-1 {
+  .catalog__item-1 {
     background: url("../img/prod-tab/prod-tab-1@2x.webp");
   }
 
-  .item-1 {
+  .catalog__item-1 {
     background: url("../img/prod-mob/prod-mob-1@2x.webp");
   }
 
-  .item-2 {
+  .catalog__item-2 {
     background: url("../img/prod-desk/prod-desk-1.webpk@2x.webp");
   }
 
-  .item-2 {
+  .catalog__item-2 {
     background: url("../img/prod-tab/prod-tab-1@2x.webp");
   }
 
-  .item-2 {
+  .catalog__item-2 {
     background: url("../img/prod-mob/prod-mob-1@2x.webp");
   }
 
-  .item-3 {
+  .catalog__item-3 {
     background: url("../img/prod-desk/prod-desk-3.webpk@2x.webp");
   }
 
-  .item-3 {
+  .catalog__item-3 {
     background: url("../img/prod-tab/prod-tab-3@2x.webp");
   }
 
-  .item-3 {
+  .catalog__item-3 {
     background: url("../img/prod-mob/prod-mob-3@2x.webp");
   }
 
-  .item-4 {
+  .catalog__item-4 {
     background: url("../img/prod-desk/prod-desk-4.webpk@2x.webp");
   }
 
-  .item-4 {
+  .catalog__item-4 {
     background: url("../img/prod-tab/prod-tab-4@2x.webp");
   }
 
-  .item-4 {
+  .catalog__item-4 {
     background: url("../img/prod-mob/prod-mob-4@2x.webp");
   }
 
-  .item-5 {
+  .catalog__item-5 {
     background: url("../img/prod-desk/prod-desk-5.webpk@2x.webp");
   }
 
-  .item-5 {
+  .catalog__item-5 {
     background: url("../img/prod-tab/prod-tab-5@2x.webp");
   }
 
-  .item-5 {
+  .catalog__item-5 {
     background: url("../img/prod-mob/prod-mob-5@2x.webp");
   }
 
-  .item-6 {
+  .catalog__item-6 {
     background: url("../img/prod-desk/prod-desk-6.webpk@2x.webp");
   }
 
-  .item-6 {
+  .catalog__item-6 {
     background: url("../img/prod-tab/prod-tab-6@2x.webp");
   }
 
-  .item-6 {
+  .catalog__item-6 {
     background: url("../img/prod-mob/prod-mob-6@2x.webp");
   }
 
-  .item-7 {
+  .catalog__item-7 {
     background: url("../img/prod-desk/prod-desk-7.webpk@2x.webp");
   }
 
-  .item-7 {
+  .catalog__item-7 {
     background: url("../img/prod-tab/prod-tab-7@2x.webp");
   }
 
-  .item-7 {
+  .catalog__item-7 {
     background: url("../img/prod-mob/prod-mob-7@2x.webp");
   }
 
-  .item-8 {
+  .catalog__item-8 {
     background: url("../img/prod-desk/prod-desk-8.webpk@2x.webp");
   }
 
-  .item-8 {
+  .catalog__item-8 {
     background: url("../img/prod-tab/prod-tab-8@2x.webp");
   }
 
-  .item-8 {
+  .catalog__item-8 {
     background: url("../img/prod-mob/prod-mob-8@2x.webp");
   }
 }

@@ -62,13 +62,12 @@
 
 body .catalog__preview {
   @include catalog-set;
-  // z-index: 0;
   @include back-set;
   background-size: 100% 100%;
   background-position: center;
 }
 
-.item-1 {
+.catalog__item-1 {
   background: url("../img/prod-desk/prod-desk-1.webp");
 
   @media (min-resolution: 2dppx) {
@@ -92,7 +91,7 @@ body .catalog__preview {
   }
 }
 
-.item-2 {
+.catalog__item-2 {
   background: url("../img/prod-desk/prod-desk-1.webp");
 
   @media (min-resolution: 2dppx) {
@@ -116,7 +115,7 @@ body .catalog__preview {
   }
 }
 
-.item-3 {
+.catalog__item-3 {
   background: url("../img/prod-desk/prod-desk-3.webp");
 
   @media (min-resolution: 2dppx) {
@@ -140,7 +139,7 @@ body .catalog__preview {
   }
 }
 
-.item-4 {
+.catalog__item-4 {
   background: url("../img/prod-desk/prod-desk-4.webp");
 
   @media (min-resolution: 2dppx) {
@@ -164,7 +163,7 @@ body .catalog__preview {
   }
 }
 
-.item-5 {
+.catalog__item-5 {
   background: url("../img/prod-desk/prod-desk-5.webp");
 
   @media (min-resolution: 2dppx) {
@@ -188,7 +187,7 @@ body .catalog__preview {
   }
 }
 
-.item-6 {
+.catalog__item-6 {
   background: url("../img/prod-desk/prod-desk-6.webp");
 
   @media (min-resolution: 2dppx) {
@@ -212,7 +211,7 @@ body .catalog__preview {
   }
 }
 
-.item-7 {
+.catalog__item-7 {
   background: url("../img/prod-desk/prod-desk-7.webp");
 
   @media (min-resolution: 2dppx) {
@@ -236,7 +235,7 @@ body .catalog__preview {
   }
 }
 
-.item-8 {
+.catalog__item-8 {
   background: url("../img/prod-desk/prod-desk-8.webp");
 
   @media (min-resolution: 2dppx) {
