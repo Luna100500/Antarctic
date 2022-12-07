@@ -5,7 +5,8 @@
 .intro__container {
   height: 658px;
   width: 100%;
-  background: url("../img/intro/intro-desk.webp");
+  background-color: $color-sky;
+  background-image: url("../img/intro/intro-desk.webp");
   z-index: 0;
   overflow: hidden;
   display: flex;
@@ -15,26 +16,30 @@
 
   @include vp-1023 {
     height: 638px;
-    background: url("../img/intro/intro-tab.webp");
+    background-color: $color-sky;
+    background-image: url("../img/intro/intro-tab.webp");
 
     @include back-set;
   }
 
   @include vp-767 {
     height: 500px;
-    background: url("../img/intro/intro-mob.webp");
+    background-color: $color-sky;
+    background-image: url("../img/intro/intro-mob.webp");
 
     @include back-set;
   }
 
   @include retina {
-    background: url("../img/intro/intro-desk@2x.webp");
+    background-color: $color-sky;
+    background-image: url("../img/intro/intro-desk@2x.webp");
 
     @include back-set;
 
     @include vp-1023 {
       &.retina {
-        background: url("../img/intro/intro-tab@2x.webp");
+        background-color: $color-sky;
+        background-image: url("../img/intro/intro-tab@2x.webp");
 
         @include back-set;
         background-size: cover;
@@ -43,7 +48,8 @@
 
     @include vp-767 {
       &.retina {
-        background: url("../img/intro/intro-mob@2x.webp");
+        background-color: $color-sky;
+        background-image: url("../img/intro/intro-mob@2x.webp");
 
         @include back-set;
         background-position: bottom, bottom;

@@ -29,6 +29,7 @@
   max-width: 560px;
   width: 100%;
   height: 306px;
+  background-color: $color-deep-sky-blue;
 
   @include vp-1023 {
     margin-right: 25px;

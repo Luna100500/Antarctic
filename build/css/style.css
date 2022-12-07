@@ -795,7 +795,8 @@ button,
 .intro__container {
   height: 658px;
   width: 100%;
-  background: url("../img/intro/intro-desk.webp");
+  background-color: #477eba;
+  background-image: url("../img/intro/intro-desk.webp");
   z-index: 0;
   overflow: hidden;
   display: -webkit-box;
@@ -804,7 +805,6 @@ button,
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #c1ced7;
   background-repeat: no-repeat, no-repeat;
   background-position: bottom;
   background-size: cover, cover;
@@ -910,8 +910,8 @@ button,
   max-width: 560px;
   height: 301px;
   margin-left: 20px;
-  background: url("../img/promo/promo-desk.webp");
   background-color: #c1ced7;
+  background-image: url("../img/promo/promo-desk.webp");
   background-repeat: no-repeat, no-repeat;
   background-position: bottom;
   background-size: cover, cover;
@@ -919,7 +919,8 @@ button,
 
 .advantages {
   width: 100%;
-  background: url("../img/adv/adv-desk.webp");
+  background-color: #c1ced7;
+  background-image: url("../img/adv/adv-desk.webp");
   z-index: 0;
   overflow: hidden;
   display: -webkit-box;
@@ -928,7 +929,6 @@ button,
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #c1ced7;
   background-repeat: no-repeat, no-repeat;
   background-position: bottom;
   background-size: cover, cover;
@@ -1068,35 +1068,43 @@ button,
 }
 
 .catalog__item-1 {
-  background: url("../img/prod-desk/prod-desk-1.webp");
+  background-color: #c1ced7;
+  background-image: url("../img/prod-desk/prod-desk-1.webp");
 }
 
 .catalog__item-2 {
-  background: url("../img/prod-desk/prod-desk-1.webp");
+  background-color: #c1ced7;
+  background-image: url("../img/prod-desk/prod-desk-1.webp");
 }
 
 .catalog__item-3 {
-  background: url("../img/prod-desk/prod-desk-3.webp");
+  background-color: #c1ced7;
+  background-image: url("../img/prod-desk/prod-desk-3.webp");
 }
 
 .catalog__item-4 {
-  background: url("../img/prod-desk/prod-desk-4.webp");
+  background-color: #c1ced7;
+  background-image: url("../img/prod-desk/prod-desk-4.webp");
 }
 
 .catalog__item-5 {
-  background: url("../img/prod-desk/prod-desk-5.webp");
+  background-color: #c1ced7;
+  background-image: url("../img/prod-desk/prod-desk-5.webp");
 }
 
 .catalog__item-6 {
-  background: url("../img/prod-desk/prod-desk-6.webp");
+  background-color: #c1ced7;
+  background-image: url("../img/prod-desk/prod-desk-6.webp");
 }
 
 .catalog__item-7 {
-  background: url("../img/prod-desk/prod-desk-7.webp");
+  background-color: #c1ced7;
+  background-image: url("../img/prod-desk/prod-desk-7.webp");
 }
 
 .catalog__item-8 {
-  background: url("../img/prod-desk/prod-desk-8.webp");
+  background-color: #c1ced7;
+  background-image: url("../img/prod-desk/prod-desk-8.webp");
 }
 
 .catalog__info {
@@ -1208,7 +1216,6 @@ button,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #c1ced7;
   background-repeat: no-repeat, no-repeat;
   background-position: bottom;
   background-size: cover, cover;
@@ -1326,10 +1333,10 @@ button,
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background: url("../img/book/book-desk.webp");
+  background-color: #a6caf0;
+  background-image: url("../img/book/book-desk.webp");
   z-index: 0;
   overflow: hidden;
-  background-color: #c1ced7;
   background-repeat: no-repeat, no-repeat;
   background-position: bottom;
   background-size: cover, cover;
@@ -1581,6 +1588,7 @@ button,
   max-width: 560px;
   width: 100%;
   height: 306px;
+  background-color: #c1ced7;
 }
 
 .contacts__data {
@@ -1740,8 +1748,8 @@ div.leaflet-pane {
 
   .intro__container {
     height: 638px;
-    background: url("../img/intro/intro-tab.webp");
-    background-color: #c1ced7;
+    background-color: #477eba;
+    background-image: url("../img/intro/intro-tab.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -1806,8 +1814,8 @@ div.leaflet-pane {
     max-width: 324px;
     height: 174px;
     margin-left: 12px;
-    background: url("../img/promo/promo-tab.webp");
     background-color: #c1ced7;
+    background-image: url("../img/promo/promo-tab.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -1815,8 +1823,8 @@ div.leaflet-pane {
 
   .advantages {
     height: 588px;
-    background: url("../img/adv/adv-tab.webp");
     background-color: #c1ced7;
+    background-image: url("../img/adv/adv-tab.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -1901,35 +1909,43 @@ div.leaflet-pane {
   }
 
   .catalog__item-1 {
-    background: url("../img/prod-tab/prod-tab-1.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-tab/prod-tab-1.webp");
   }
 
   .catalog__item-2 {
-    background: url("../img/prod-tab/prod-tab-1.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-tab/prod-tab-1.webp");
   }
 
   .catalog__item-3 {
-    background: url("../img/prod-tab/prod-tab-3.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-tab/prod-tab-3.webp");
   }
 
   .catalog__item-4 {
-    background: url("../img/prod-tab/prod-tab-4.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-tab/prod-tab-4.webp");
   }
 
   .catalog__item-5 {
-    background: url("../img/prod-tab/prod-tab-5.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-tab/prod-tab-5.webp");
   }
 
   .catalog__item-6 {
-    background: url("../img/prod-tab/prod-tab-6.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-tab/prod-tab-6.webp");
   }
 
   .catalog__item-7 {
-    background: url("../img/prod-tab/prod-tab-7.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-tab/prod-tab-7.webp");
   }
 
   .catalog__item-8 {
-    background: url("../img/prod-tab/prod-tab-8.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-tab/prod-tab-8.webp");
   }
 
   .catalog__item .catalog__preview {
@@ -1989,7 +2005,8 @@ div.leaflet-pane {
 
   .feedback {
     min-height: 805px;
-    background: url("../img/book/book-tab.webp");
+    background-color: #a6caf0;
+    background-image: url("../img/book/book-tab.webp");
     background-size: cover;
     background-position: bottom;
   }
@@ -2057,8 +2074,8 @@ div.leaflet-pane {
 
 @media (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 1023px), (-o-min-device-pixel-ratio: 3/2) and (max-width: 1023px), (min-resolution: 144dpi) and (max-width: 1023px), (min-resolution: 1.5dppx) and (max-width: 1023px) {
   .intro__container.retina {
-    background: url("../img/intro/intro-tab@2x.webp");
-    background-color: #c1ced7;
+    background-color: #477eba;
+    background-image: url("../img/intro/intro-tab@2x.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2066,16 +2083,16 @@ div.leaflet-pane {
   }
 
   .promo-block__img.retina {
-    background: url("../img/promo/promo-tab@2x.webp");
     background-color: #c1ced7;
+    background-image: url("../img/promo/promo-tab@2x.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
   }
 
   .advantages.retina {
-    background: url("../img/adv/adv-tab@2x.webp");
     background-color: #c1ced7;
+    background-image: url("../img/adv/adv-tab@2x.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2083,7 +2100,8 @@ div.leaflet-pane {
   }
 
   .feedback.retina {
-    background: url("../img/book/book-tab@2x.webp");
+    background-color: #a6caf0;
+    background-image: url("../img/book/book-tab@2x.webp");
     background-position: bottom;
     background-size: cover;
   }
@@ -2181,8 +2199,8 @@ div.leaflet-pane {
 
   .intro__container {
     height: 500px;
-    background: url("../img/intro/intro-mob.webp");
-    background-color: #c1ced7;
+    background-color: #477eba;
+    background-image: url("../img/intro/intro-mob.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2246,8 +2264,8 @@ div.leaflet-pane {
     width: auto;
     max-width: 100%;
     margin-left: 0;
-    background: url("../img/promo/promo-mob.webp");
     background-color: #c1ced7;
+    background-image: url("../img/promo/promo-mob.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2258,8 +2276,8 @@ div.leaflet-pane {
   .advantages {
     height: auto;
     padding-bottom: 65px;
-    background: url("../img/adv/adv-mob.webp");
     background-color: #c1ced7;
+    background-image: url("../img/adv/adv-mob.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2315,35 +2333,43 @@ div.leaflet-pane {
   }
 
   .catalog__item-1 {
-    background: url("../img/prod-mob/prod-mob-1.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-mob/prod-mob-1.webp");
   }
 
   .catalog__item-2 {
-    background: url("../img/prod-mob/prod-mob-1.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-mob/prod-mob-1.webp");
   }
 
   .catalog__item-3 {
-    background: url("../img/prod-mob/prod-mob-3.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-mob/prod-mob-3.webp");
   }
 
   .catalog__item-4 {
-    background: url("../img/prod-mob/prod-mob-4.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-mob/prod-mob-4.webp");
   }
 
   .catalog__item-5 {
-    background: url("../img/prod-mob/prod-mob-5.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-mob/prod-mob-5.webp");
   }
 
   .catalog__item-6 {
-    background: url("../img/prod-mob/prod-mob-6.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-mob/prod-mob-6.webp");
   }
 
   .catalog__item-7 {
-    background: url("../img/prod-mob/prod-mob-7.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-mob/prod-mob-7.webp");
   }
 
   .catalog__item-8 {
-    background: url("../img/prod-mob/prod-mob-8.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-mob/prod-mob-8.webp");
   }
 
   .catalog__info {
@@ -2397,7 +2423,8 @@ div.leaflet-pane {
 
   .feedback {
     min-height: 760px;
-    background: url("../img/book/book-mob.webp");
+    background-color: #a6caf0;
+    background-image: url("../img/book/book-mob.webp");
     background-size: cover;
     background-position: bottom;
   }
@@ -2490,8 +2517,8 @@ div.leaflet-pane {
 
 @media (-webkit-min-device-pixel-ratio: 1.5) and (max-width: 767px), (-o-min-device-pixel-ratio: 3/2) and (max-width: 767px), (min-resolution: 144dpi) and (max-width: 767px), (min-resolution: 1.5dppx) and (max-width: 767px) {
   .intro__container.retina {
-    background: url("../img/intro/intro-mob@2x.webp");
-    background-color: #c1ced7;
+    background-color: #477eba;
+    background-image: url("../img/intro/intro-mob@2x.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2499,8 +2526,8 @@ div.leaflet-pane {
   }
 
   .promo-block__img.retina {
-    background: url("../img/promo/promo-mob@2x.webp");
     background-color: #c1ced7;
+    background-image: url("../img/promo/promo-mob@2x.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2508,8 +2535,8 @@ div.leaflet-pane {
   }
 
   .advantages.retina {
-    background: url("../img/adv/adv-mob@2x.webp");
     background-color: #c1ced7;
+    background-image: url("../img/adv/adv-mob@2x.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2517,7 +2544,8 @@ div.leaflet-pane {
   }
 
   .feedback.retina {
-    background: url("../img/book/book-mob@2x.webp");
+    background-color: #a6caf0;
+    background-image: url("../img/book/book-mob@2x.webp");
     background-position: bottom;
     background-size: cover;
   }
@@ -2525,16 +2553,16 @@ div.leaflet-pane {
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   .intro__container {
-    background: url("../img/intro/intro-desk@2x.webp");
-    background-color: #c1ced7;
+    background-color: #477eba;
+    background-image: url("../img/intro/intro-desk@2x.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
   }
 
   .promo-block__img {
-    background: url("../img/promo/promo-desk@2x.webp");
     background-color: #c1ced7;
+    background-image: url("../img/promo/promo-desk@2x.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2543,8 +2571,8 @@ div.leaflet-pane {
   }
 
   .advantages {
-    background: url("../img/adv/adv-desk@2x.webp");
     background-color: #c1ced7;
+    background-image: url("../img/adv/adv-desk@2x.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: bottom;
     background-size: cover, cover;
@@ -2552,7 +2580,8 @@ div.leaflet-pane {
   }
 
   .feedback {
-    background: url("../img/book/book-desk@2x.webp");
+    background-color: #a6caf0;
+    background-image: url("../img/book/book-desk@2x.webp");
     background-position: bottom;
     background-size: cover;
   }
@@ -2560,98 +2589,122 @@ div.leaflet-pane {
 
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 2dppx) {
   .catalog__item-1 {
-    background: url("../img/prod-desk/prod-desk-1.webpk@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-desk/prod-desk-1.webpk@2x.webp");
   }
 
   .catalog__item-1 {
-    background: url("../img/prod-tab/prod-tab-1@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-tab/prod-tab-1@2x.webp");
   }
 
   .catalog__item-1 {
-    background: url("../img/prod-mob/prod-mob-1@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-mob/prod-mob-1@2x.webp");
   }
 
   .catalog__item-2 {
-    background: url("../img/prod-desk/prod-desk-1.webpk@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-desk/prod-desk-1.webpk@2x.webp");
   }
 
   .catalog__item-2 {
-    background: url("../img/prod-tab/prod-tab-1@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-tab/prod-tab-1@2x.webp");
   }
 
   .catalog__item-2 {
-    background: url("../img/prod-mob/prod-mob-1@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-mob/prod-mob-1@2x.webp");
   }
 
   .catalog__item-3 {
-    background: url("../img/prod-desk/prod-desk-3.webpk@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-desk/prod-desk-3.webpk@2x.webp");
   }
 
   .catalog__item-3 {
-    background: url("../img/prod-tab/prod-tab-3@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-tab/prod-tab-3@2x.webp");
   }
 
   .catalog__item-3 {
-    background: url("../img/prod-mob/prod-mob-3@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-mob/prod-mob-3@2x.webp");
   }
 
   .catalog__item-4 {
-    background: url("../img/prod-desk/prod-desk-4.webpk@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-desk/prod-desk-4.webpk@2x.webp");
   }
 
   .catalog__item-4 {
-    background: url("../img/prod-tab/prod-tab-4@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-tab/prod-tab-4@2x.webp");
   }
 
   .catalog__item-4 {
-    background: url("../img/prod-mob/prod-mob-4@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-mob/prod-mob-4@2x.webp");
   }
 
   .catalog__item-5 {
-    background: url("../img/prod-desk/prod-desk-5.webpk@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-desk/prod-desk-5.webpk@2x.webp");
   }
 
   .catalog__item-5 {
-    background: url("../img/prod-tab/prod-tab-5@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-tab/prod-tab-5@2x.webp");
   }
 
   .catalog__item-5 {
-    background: url("../img/prod-mob/prod-mob-5@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-mob/prod-mob-5@2x.webp");
   }
 
   .catalog__item-6 {
-    background: url("../img/prod-desk/prod-desk-6.webpk@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-desk/prod-desk-6.webpk@2x.webp");
   }
 
   .catalog__item-6 {
-    background: url("../img/prod-tab/prod-tab-6@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-tab/prod-tab-6@2x.webp");
   }
 
   .catalog__item-6 {
-    background: url("../img/prod-mob/prod-mob-6@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-mob/prod-mob-6@2x.webp");
   }
 
   .catalog__item-7 {
-    background: url("../img/prod-desk/prod-desk-7.webpk@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-desk/prod-desk-7.webpk@2x.webp");
   }
 
   .catalog__item-7 {
-    background: url("../img/prod-tab/prod-tab-7@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-tab/prod-tab-7@2x.webp");
   }
 
   .catalog__item-7 {
-    background: url("../img/prod-mob/prod-mob-7@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-mob/prod-mob-7@2x.webp");
   }
 
   .catalog__item-8 {
-    background: url("../img/prod-desk/prod-desk-8.webpk@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-desk/prod-desk-8.webpk@2x.webp");
   }
 
   .catalog__item-8 {
-    background: url("../img/prod-tab/prod-tab-8@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-tab/prod-tab-8@2x.webp");
   }
 
   .catalog__item-8 {
-    background: url("../img/prod-mob/prod-mob-8@2x.webp");
+    background-color: #c1ced7;
+    background-image: url("../img/prod-mob/prod-mob-8@2x.webp");
   }
 }

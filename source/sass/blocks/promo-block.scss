@@ -81,7 +81,8 @@
   max-width: 560px;
   height: 301px;
   margin-left: 20px;
-  background: url("../img/promo/promo-desk.webp");
+  background-color: $color-deep-sky-blue;
+  background-image: url("../img/promo/promo-desk.webp");
 
   @include back-set;
 
@@ -90,7 +91,8 @@
     max-width: 324px;
     height: 174px;
     margin-left: 12px;
-    background: url("../img/promo/promo-tab.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/promo/promo-tab.webp");
 
     @include back-set;
   }
@@ -100,7 +102,8 @@
     width: auto;
     max-width: 100%;
     margin-left: 0;
-    background: url("../img/promo/promo-mob.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/promo/promo-mob.webp");
 
     @include back-set;
     background-size: auto;
@@ -108,7 +111,8 @@
   }
 
   @include retina {
-    background: url("../img/promo/promo-desk@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/promo/promo-desk@2x.webp");
 
     @include back-set;
     background-size: cover;
@@ -116,7 +120,8 @@
 
     @include vp-1023 {
       &.retina {
-        background: url("../img/promo/promo-tab@2x.webp");
+        background-color: $color-deep-sky-blue;
+        background-image: url("../img/promo/promo-tab@2x.webp");
 
         @include back-set;
       }
@@ -124,7 +129,8 @@
 
     @include vp-767 {
       &.retina {
-        background: url("../img/promo/promo-mob@2x.webp");
+        background-color: $color-deep-sky-blue;
+        background-image: url("../img/promo/promo-mob@2x.webp");
 
         @include back-set;
         background-size: auto;

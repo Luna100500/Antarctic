@@ -61,194 +61,242 @@
 }
 
 .catalog__item-1 {
-  background: url("../img/prod-desk/prod-desk-1.webp");
+  background-color: $color-deep-sky-blue;
+  background-image: url("../img/prod-desk/prod-desk-1.webp");
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-desk/prod-desk-1.webpk@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-desk/prod-desk-1.webpk@2x.webp");
   }
 
   @include vp-1023 {
-    background: url("../img/prod-tab/prod-tab-1.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-tab/prod-tab-1.webp");
   }
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-tab/prod-tab-1@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-tab/prod-tab-1@2x.webp");
   }
 
   @include vp-767 {
-    background: url("../img/prod-mob/prod-mob-1.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-mob/prod-mob-1.webp");
   }
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-mob/prod-mob-1@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-mob/prod-mob-1@2x.webp");
   }
 }
 
 .catalog__item-2 {
-  background: url("../img/prod-desk/prod-desk-1.webp");
+  background-color: $color-deep-sky-blue;
+  background-image: url("../img/prod-desk/prod-desk-1.webp");
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-desk/prod-desk-1.webpk@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-desk/prod-desk-1.webpk@2x.webp");
   }
 
   @include vp-1023 {
-    background: url("../img/prod-tab/prod-tab-1.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-tab/prod-tab-1.webp");
   }
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-tab/prod-tab-1@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-tab/prod-tab-1@2x.webp");
   }
 
   @include vp-767 {
-    background: url("../img/prod-mob/prod-mob-1.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-mob/prod-mob-1.webp");
   }
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-mob/prod-mob-1@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-mob/prod-mob-1@2x.webp");
   }
 }
 
 .catalog__item-3 {
-  background: url("../img/prod-desk/prod-desk-3.webp");
+  background-color: $color-deep-sky-blue;
+  background-image: url("../img/prod-desk/prod-desk-3.webp");
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-desk/prod-desk-3.webpk@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-desk/prod-desk-3.webpk@2x.webp");
   }
 
   @include vp-1023 {
-    background: url("../img/prod-tab/prod-tab-3.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-tab/prod-tab-3.webp");
   }
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-tab/prod-tab-3@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-tab/prod-tab-3@2x.webp");
   }
 
   @include vp-767 {
-    background: url("../img/prod-mob/prod-mob-3.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-mob/prod-mob-3.webp");
   }
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-mob/prod-mob-3@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-mob/prod-mob-3@2x.webp");
   }
 }
 
 .catalog__item-4 {
-  background: url("../img/prod-desk/prod-desk-4.webp");
+  background-color: $color-deep-sky-blue;
+  background-image: url("../img/prod-desk/prod-desk-4.webp");
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-desk/prod-desk-4.webpk@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-desk/prod-desk-4.webpk@2x.webp");
   }
 
   @include vp-1023 {
-    background: url("../img/prod-tab/prod-tab-4.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-tab/prod-tab-4.webp");
   }
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-tab/prod-tab-4@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-tab/prod-tab-4@2x.webp");
   }
 
   @include vp-767 {
-    background: url("../img/prod-mob/prod-mob-4.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-mob/prod-mob-4.webp");
   }
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-mob/prod-mob-4@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-mob/prod-mob-4@2x.webp");
   }
 }
 
 .catalog__item-5 {
-  background: url("../img/prod-desk/prod-desk-5.webp");
+  background-color: $color-deep-sky-blue;
+  background-image: url("../img/prod-desk/prod-desk-5.webp");
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-desk/prod-desk-5.webpk@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-desk/prod-desk-5.webpk@2x.webp");
   }
 
   @include vp-1023 {
-    background: url("../img/prod-tab/prod-tab-5.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-tab/prod-tab-5.webp");
   }
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-tab/prod-tab-5@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-tab/prod-tab-5@2x.webp");
   }
 
   @include vp-767 {
-    background: url("../img/prod-mob/prod-mob-5.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-mob/prod-mob-5.webp");
   }
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-mob/prod-mob-5@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-mob/prod-mob-5@2x.webp");
   }
 }
 
 .catalog__item-6 {
-  background: url("../img/prod-desk/prod-desk-6.webp");
+  background-color: $color-deep-sky-blue;
+  background-image: url("../img/prod-desk/prod-desk-6.webp");
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-desk/prod-desk-6.webpk@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-desk/prod-desk-6.webpk@2x.webp");
   }
 
   @include vp-1023 {
-    background: url("../img/prod-tab/prod-tab-6.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-tab/prod-tab-6.webp");
   }
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-tab/prod-tab-6@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-tab/prod-tab-6@2x.webp");
   }
 
   @include vp-767 {
-    background: url("../img/prod-mob/prod-mob-6.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-mob/prod-mob-6.webp");
   }
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-mob/prod-mob-6@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-mob/prod-mob-6@2x.webp");
   }
 }
 
 .catalog__item-7 {
-  background: url("../img/prod-desk/prod-desk-7.webp");
+  background-color: $color-deep-sky-blue;
+  background-image: url("../img/prod-desk/prod-desk-7.webp");
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-desk/prod-desk-7.webpk@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-desk/prod-desk-7.webpk@2x.webp");
   }
 
   @include vp-1023 {
-    background: url("../img/prod-tab/prod-tab-7.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-tab/prod-tab-7.webp");
   }
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-tab/prod-tab-7@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-tab/prod-tab-7@2x.webp");
   }
 
   @include vp-767 {
-    background: url("../img/prod-mob/prod-mob-7.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-mob/prod-mob-7.webp");
   }
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-mob/prod-mob-7@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-mob/prod-mob-7@2x.webp");
   }
 }
 
 .catalog__item-8 {
-  background: url("../img/prod-desk/prod-desk-8.webp");
+  background-color: $color-deep-sky-blue;
+  background-image: url("../img/prod-desk/prod-desk-8.webp");
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-desk/prod-desk-8.webpk@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-desk/prod-desk-8.webpk@2x.webp");
   }
 
   @include vp-1023 {
-    background: url("../img/prod-tab/prod-tab-8.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-tab/prod-tab-8.webp");
   }
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-tab/prod-tab-8@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-tab/prod-tab-8@2x.webp");
   }
 
   @include vp-767 {
-    background: url("../img/prod-mob/prod-mob-8.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-mob/prod-mob-8.webp");
   }
 
   @media (min-resolution: 2dppx) {
-    background: url("../img/prod-mob/prod-mob-8@2x.webp");
+    background-color: $color-deep-sky-blue;
+    background-image: url("../img/prod-mob/prod-mob-8@2x.webp");
   }
 }
 
