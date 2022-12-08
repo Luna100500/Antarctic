@@ -18,11 +18,14 @@
   max-width: 1366px;
   min-height: 138px;
   align-items: center;
-  padding-top: 12px;
 
   @include vp-1023 {
     min-height: 120px;
     padding-top: 0;
+  }
+
+  @include vp-767 {
+    align-items: flex-start;
   }
 }
 
@@ -30,6 +33,7 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+  align-items: center;
   max-width: 1366px;
   padding: 0 103px;
 
@@ -39,17 +43,20 @@
 
   @include vp-767 {
     flex-direction: column;
-    padding: 0 10px 50px;
+    padding: 0 10px 32px;
+    align-items: flex-start;
   }
 }
 
 .footer__navigation-list {
   display: flex;
+  align-items: center;
 
   @include vp-767 {
     flex-direction: column;
     margin-top: 40px;
     margin-bottom: 15px;
+    align-items: flex-start;
   }
 }
 
@@ -75,7 +82,8 @@
   }
 
   @include vp-767 {
-    margin-bottom: 23px;
+    margin-bottom: 16px;
+    margin-left: 5px;
   }
 }
 

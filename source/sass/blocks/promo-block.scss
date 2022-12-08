@@ -12,7 +12,7 @@
 
   @include vp-767 {
     margin-top: 65px;
-    margin-bottom: 67px;
+    margin-bottom: 85px;
   }
 }
 
@@ -82,7 +82,10 @@
   height: 301px;
   margin-left: 20px;
   background-color: $color-deep-sky-blue;
-  background-image: url("../img/promo/promo-desk.webp");
+  background-image: image-set(
+    "../img/promo/promo-desk.webp" 1x,
+    "../img/promo/promo-desk@2x.webp" 2x
+  );
 
   @include back-set;
 
@@ -92,49 +95,27 @@
     height: 174px;
     margin-left: 12px;
     background-color: $color-deep-sky-blue;
-    background-image: url("../img/promo/promo-tab.webp");
+    background-image: image-set(
+      "../img/promo/promo-tab.webp" 1x,
+      "../img/promo/promo-tab@2x.webp" 2x
+    );
 
     @include back-set;
   }
 
   @include vp-767 {
     display: flex;
-    width: auto;
-    max-width: 100%;
-    margin-left: 0;
+    width: 290px;
+    margin: 0 auto;
+    height: 156px;
     background-color: $color-deep-sky-blue;
-    background-image: url("../img/promo/promo-mob.webp");
+    background-image: image-set(
+      "../img/promo/promo-mob.webp" 1x,
+      "../img/promo/promo-mob@2x.webp" 2x
+    );
 
     @include back-set;
     background-size: auto;
     background-repeat: no-repeat;
-  }
-
-  @include retina {
-    background-color: $color-deep-sky-blue;
-    background-image: url("../img/promo/promo-desk@2x.webp");
-
-    @include back-set;
-    background-size: cover;
-    background-position: center;
-
-    @include vp-1023 {
-      &.retina {
-        background-color: $color-deep-sky-blue;
-        background-image: url("../img/promo/promo-tab@2x.webp");
-
-        @include back-set;
-      }
-    }
-
-    @include vp-767 {
-      &.retina {
-        background-color: $color-deep-sky-blue;
-        background-image: url("../img/promo/promo-mob@2x.webp");
-
-        @include back-set;
-        background-size: auto;
-      }
-    }
   }
 }

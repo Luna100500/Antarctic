@@ -1,3 +1,13 @@
+// const mapLeaflet = document.querySelector(".contacts__map-leaflet");
+// const mapGoogle = document.querySelector(".contacts__map-google");
+
+// const initMap = () => {
+//   mapLeaflet.style.display = "block";
+//   mapGoogle.style.display = "none";
+// };
+
+// initMap();
+
 var mapOptions = {
   center: [59.938823961800495, 30.3230581269971],
   zoom: 20,
