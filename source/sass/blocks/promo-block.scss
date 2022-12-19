@@ -21,7 +21,7 @@
   max-width: 1366px;
   display: grid;
   grid-template-columns: 50% 50%;
-  padding: 0 103px;
+  padding: 0 7.5%;
   align-items: center;
 
   @include vp-1023 {
@@ -105,17 +105,28 @@
 
   @include vp-767 {
     display: flex;
-    width: 290px;
+    width: 100%;
+    max-width: 100%;
+    height: 388px;
     margin: 0 auto;
-    height: 156px;
+    min-height: 100%;
     background-color: $color-deep-sky-blue;
     background-image: image-set(
       "../img/promo/promo-mob.webp" 1x,
       "../img/promo/promo-mob@2x.webp" 2x
     );
+    background-position: top;
 
     @include back-set;
-    background-size: auto;
-    background-repeat: no-repeat;
+  }
+
+  @include vp-569 {
+    height: 297px;
+  }
+
+  @include vp-320 {
+    margin-top: 0;
+    width: 290px;
+    height: 156px;
   }
 }

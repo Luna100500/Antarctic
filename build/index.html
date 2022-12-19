@@ -21,17 +21,18 @@
 
 <body>
   <div class="wrapper">
+    <div class="wrapper__overlay"></div>
     <header class="header">
-      <div class="header__container header__container--opened">
+      <div class="header__container header__container--no-js">
         <div class="header__logo">
-          <a class="header__logo-link" href="index.html">
+          <a class="header__logo-link">
             <svg width="70" height="38" class="header__logo-svg header__logo-svg--opened">
               <use xlink:href="./img/sprite.svg#logo-tab"></use>
             </svg>
           </a>
         </div>
         <div class="header__nav-list-wrapper">
-          <ul class="header__nav-list header__nav-list--opened reset-list">
+          <ul class="header__nav-list header__nav-list--no-js header__nav-list--opened reset-list">
             <li class="header__nav-item">
               <a class="header__nav-link" href="#head1">
                 Преимущества
@@ -57,7 +58,7 @@
 
         <div class="header__mobile">
           <div class="header__toggle">
-            <button class="header__toggle-button header__toggle-button--opened" type="button">
+            <button class="header__toggle-button" type="button">
               <svg width="24" height="12" class="header__toggle-button-svg">
                 <use xlink:href="./img/sprite.svg#burger"></use>
               </svg>
@@ -65,7 +66,7 @@
             </button>
           </div>
           <div class="header__cross">
-            <button class="header__cross-button header__cross-button--opened" type="button">
+            <button class="header__cross-button" type="button">
               <svg width="14" height="14" class="header__cross-button-svg">
                 <use xlink:href="./img/sprite.svg#cross"></use>
               </svg>
@@ -319,7 +320,7 @@
               <fieldset class="form__fieldset">
                 <div class="form__name">
                   <label>
-                    <input type="text" placeholder="Имя" required>
+                    <input type="text" pattern="^[a-zA-Zа-яА-Я][a-zA-Zа-яА-Я\s]*$" placeholder="Имя" required>
                   </label>
                 </div>
                 <div class="form__phone">
@@ -329,7 +330,7 @@
                 </div>
                 <div class="form__email">
                   <label>
-                    <input type="email" placeholder="Email" minlength="5" required>
+                    <input type="email" placeholder="Email" required>
                   </label>
                 </div>
               </fieldset>

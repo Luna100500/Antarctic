@@ -7,7 +7,7 @@
 .contacts__container {
   display: flex;
   max-width: 1366px;
-  padding: 120px 103px;
+  padding: 120px 7.5%;
   justify-content: space-between;
   width: 100%;
 
@@ -94,6 +94,24 @@
   @include montserrat(400, 16px, 24px, $color-navy);
   margin-left: 27px;
   position: relative;
+
+  &:hover {
+    text-decoration: revert;
+    opacity: 0.8;
+  }
+
+  &:focus {
+    text-decoration: revert;
+  }
+
+  &:active {
+    text-decoration: revert;
+    opacity: 0.5;
+  }
+
+  &:focus-visible {
+    outline: none;
+  }
 }
 
 .contacts__phone::before {

@@ -9,7 +9,11 @@
   flex-direction: column;
   align-items: center;
   max-width: 1366px;
-  padding: 85px 103px 120px;
+  padding: 85px 7.5% 120px;
+
+  @include vp-1279 {
+    padding: 85px 5% 120px;
+  }
 
   @include vp-1023 {
     padding: 90px 45px 100px;
@@ -41,8 +45,13 @@
   width: 100%;
   padding: 0 15px;
 
+  @include vp-1279 {
+    gap: 2%;
+  }
+
   @include vp-1023 {
     grid-template-columns: 1fr 1fr;
+    gap: 30px;
   }
 
   @include vp-767 {
@@ -54,6 +63,7 @@
 .catalog__item {
   position: relative;
   min-height: 386px;
+  overflow: auto;
 
   @include vp-1023 {
     min-height: 386px;
@@ -262,6 +272,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: auto;
 
   @include vp-1023 {
     padding: 28px 35px 35px;
@@ -323,7 +334,6 @@
 .catalog__preview {
   @include catalog-set;
   @include back-set;
-  background-size: 100% 100%;
   background-position: center;
   display: flex;
   align-items: flex-end;

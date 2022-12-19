@@ -3,6 +3,23 @@
   height: 43px;
   border: none;
   padding: 16px 11px;
+
+  &:hover {
+    background-color: $color-sky-blue;
+  }
+
+  &:focus {
+    background-color: $color-sky-blue;
+  }
+
+  &:active {
+    background-color: $color-sky-blue;
+    opacity: 0.5;
+  }
+
+  &:focus-visible {
+    outline: none;
+  }
 }
 
 .form__button-send {
@@ -20,7 +37,7 @@
   }
 
   &:focus {
-    border: 2px solid $color-deep-sky-blue;
+    background-color: $color-sky-blue;
   }
 
   &:active {
@@ -80,7 +97,7 @@
 }
 
 .form__control--checkbox:focus-within {
-  outline: 1px solid $color-off-white;
+  opacity: 0.8;
 }
 
 .form__control--checkbox input:active + label {
