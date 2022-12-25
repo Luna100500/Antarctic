@@ -320,17 +320,18 @@
               <fieldset class="form__fieldset">
                 <div class="form__name">
                   <label>
-                    <input type="text" pattern="^[a-zA-Zа-яА-Я][a-zA-Zа-яА-Я\s]*$" placeholder="Имя" required>
+                    <input type="text" name="name" pattern="^[a-zA-Zа-яА-Я\-\s]*$" placeholder="Имя" required>
                   </label>
                 </div>
                 <div class="form__phone">
                   <label>
-                    <input type="tel" id="phone-mask" placeholder="Телефон" minlength="11" required>
+                    <input type="tel" id="phone-mask" name="phone" placeholder="Телефон" minlength="11" maxlength="11"
+                      required>
                   </label>
                 </div>
                 <div class="form__email">
                   <label>
-                    <input type="email" placeholder="Email" required>
+                    <input type="email" name="email" placeholder="Email" required>
                   </label>
                 </div>
               </fieldset>
@@ -340,8 +341,8 @@
                     data-form-storage checked required>
                   <label for="form-consent">Я&nbsp;согласен на&nbsp;обработку моих персональных данных</label>
                 </div>
-                <button type="submit" class="form__button-send">Оставить заявку</button>
               </fieldset>
+              <button type="submit" class="form__button-send">Оставить заявку</button>
             </form>
           </div>
         </div>
@@ -364,50 +365,59 @@
       <div class="footer__container">
         <section class="footer__navigation">
           <h2 class="visually-hidden">Навигация</h2>
-          <ul class="footer__navigation-list reset-list">
-            <li class="footer__navigation-item">
+          <div class="footer-logo">
+            <a class="footer__logo-link" href="index.html">
+              <svg width="70" height="38" class="footer__logo-svg">
+                <use xlink:href="./img/sprite.svg#logo-tab"></use>
+              </svg>
+            </a>
+          </div>
+          <div class="footer__navigation-div">
+            <ul class="footer__navigation-list reset-list">
+              <!-- <li class="footer__navigation-item">
               <a class="footer__logo-link" href="index.html">
                 <svg width="70" height="38" class="footer__logo-svg">
                   <use xlink:href="./img/sprite.svg#logo-tab"></use>
                 </svg>
               </a>
-            </li>
-            <li class="footer__navigation-item">
-              <a class="footer__navigation-link" href="#head1">Преимущества</a>
-            </li>
-            <li class="footer__navigation-item">
-              <a class="footer__navigation-link" href="#head2">Направления</a>
-            </li>
-            <li class="footer__navigation-item">
-              <a class="footer__navigation-link" href="#head3">Ближайшие круизы</a>
-            </li>
-            <li class="footer__navigation-item">
-              <a class="footer__navigation-link" href="#head4">Контакты</a>
-            </li>
-          </ul>
-          <ul class="footer__other-list reset-list">
-            <li class="footer__other-item">
-              <a aria-label="Переход на страницу ok" class="footer__other-link footer__other-link-ok" href="#">
-                <svg width="12" height="20" class="footer__link-svg-ok">
-                  <use xlink:href="./img/sprite.svg#ok"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer__other-item">
-              <a aria-label="Переход на страницу" class="footer__other-link footer__other-link-star" href="#">
-                <svg width="20" height="20" class="footer__link-svg-star">
-                  <use xlink:href="./img/sprite.svg#star"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer__other-item">
-              <a aria-label="Переход на страницу" class="footer__other-link footer__other-link-smile" href="#">
-                <svg width="22" height="20" class="footer__link-svg-smile">
-                  <use xlink:href="./img/sprite.svg#smile"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+            </li> -->
+              <li class="footer__navigation-item">
+                <a class="footer__navigation-link" href="#head1">Преимущества</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a class="footer__navigation-link" href="#head2">Направления</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a class="footer__navigation-link" href="#head3">Ближайшие круизы</a>
+              </li>
+              <li class="footer__navigation-item">
+                <a class="footer__navigation-link" href="#head4">Контакты</a>
+              </li>
+            </ul>
+            <ul class="footer__other-list reset-list">
+              <li class="footer__other-item">
+                <a aria-label="Переход на страницу ok" class="footer__other-link footer__other-link-ok" href="#">
+                  <svg width="12" height="20" class="footer__link-svg-ok">
+                    <use xlink:href="./img/sprite.svg#ok"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__other-item">
+                <a aria-label="Переход на страницу" class="footer__other-link footer__other-link-star" href="#">
+                  <svg width="20" height="20" class="footer__link-svg-star">
+                    <use xlink:href="./img/sprite.svg#star"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer__other-item">
+                <a aria-label="Переход на страницу" class="footer__other-link footer__other-link-smile" href="#">
+                  <svg width="22" height="20" class="footer__link-svg-smile">
+                    <use xlink:href="./img/sprite.svg#smile"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
         </section>
       </div>
     </footer>

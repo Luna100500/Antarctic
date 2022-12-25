@@ -24,7 +24,7 @@ document.addEventListener("submit", (event) => {
 });
 
 const maskOptions = {
-  mask: "80000000000",
+  mask: "00000000000",
 };
 
 iMask(document.querySelector("#phone-mask"), maskOptions);

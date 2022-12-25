@@ -77,6 +77,7 @@ const setLogo = () => {
   const windowLength = window.innerWidth;
   if (windowLength >= 768) {
     logo.style.fill = "#f9fbfd";
+    removeOverlay();
   }
   if (
     windowLength < 768 &&
