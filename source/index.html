@@ -320,28 +320,28 @@
               <fieldset class="form__fieldset">
                 <div class="form__name">
                   <label>
-                    <input type="text" pattern="^[a-zA-Zа-яА-Я][a-zA-Zа-яА-Я\s]*$" placeholder="Имя" required>
+                    <input type="text" name="name" pattern="^[a-zA-Zа-яА-Я\-\s]*$" placeholder="Имя" required>
                   </label>
                 </div>
                 <div class="form__phone">
                   <label>
-                    <input type="tel" id="phone-mask" placeholder="Телефон" minlength="11" required>
+                    <input type="tel" id="phone-mask" name="phone" placeholder="Телефон" minlength="11" required>
                   </label>
                 </div>
                 <div class="form__email">
                   <label>
-                    <input type="email" placeholder="Email" required>
+                    <input type="email" name="email" placeholder="Email" required>
                   </label>
                 </div>
-              </fieldset>
-              <fieldset class="form__agreement">
+                <!--               </fieldset>
+              <fieldset class="form__agreement"> -->
                 <div class="form__control form__control--checkbox">
                   <input class="visually-hidden" id="form-consent" type="checkbox" name="customer-consent"
                     data-form-storage checked required>
                   <label for="form-consent">Я&nbsp;согласен на&nbsp;обработку моих персональных данных</label>
                 </div>
-                <button type="submit" class="form__button-send">Оставить заявку</button>
               </fieldset>
+              <button type="submit" class="form__button-send">Оставить заявку</button>
             </form>
           </div>
         </div>
@@ -364,14 +364,21 @@
       <div class="footer__container">
         <section class="footer__navigation">
           <h2 class="visually-hidden">Навигация</h2>
+          <div class="footer-logo">
+            <a class="footer__logo-link" href="index.html">
+              <svg width="70" height="38" class="footer__logo-svg">
+                <use xlink:href="./img/sprite.svg#logo-tab"></use>
+              </svg>
+            </a>
+          </div>
           <ul class="footer__navigation-list reset-list">
-            <li class="footer__navigation-item">
+            <!-- <li class="footer__navigation-item">
               <a class="footer__logo-link" href="index.html">
                 <svg width="70" height="38" class="footer__logo-svg">
                   <use xlink:href="./img/sprite.svg#logo-tab"></use>
                 </svg>
               </a>
-            </li>
+            </li> -->
             <li class="footer__navigation-item">
               <a class="footer__navigation-link" href="#head1">Преимущества</a>
             </li>
