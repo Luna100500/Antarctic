@@ -84,6 +84,7 @@ const setLogo = () => {
     navigation.classList.contains("header__nav-list--opened")
   ) {
     logo.style.fill = "#011c40";
+    setOverlay();
   }
 };
 
