@@ -2261,7 +2261,7 @@ div.leaflet-pane {
     min-height: -webkit-fill-available;
     min-height: -moz-available;
     min-height: fill-available;
-    width: 89%;
+    width: 285px;
     position: fixed;
     right: 0;
     height: 100%;
